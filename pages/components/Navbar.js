@@ -5,6 +5,8 @@ import { BiUserCircle } from 'react-icons/bi'
 import TopNavBar from './TopNavBar'
 import { Context } from './contextApi'
 import Sidebar from './Sidebar'
+import Image from 'next/image'
+
 
 export default function Navbar() {
 
@@ -31,7 +33,7 @@ export default function Navbar() {
             <div className={`${isHovered ? 'text-black bg-white' : 'text-white'}  flex absolute flex-row  justify-between px-8 py-1 items-center w-full`}>
 
                 <div className="logo text-4xl mt-2">
-                    <img className='w-36' src={isHovered ? '/tesla.png' : "/tesla-white.png"} alt="" srcset="" />
+                    <img className='w-36' src={isHovered ? '/tesla.png' : 'tesla-white.png'} alt="" />
                 </div>
 
                 <div className="items hidden md:flex flex-row font-normal [&>*]:cursor-pointer [&>*]:px-5 [&>*]:py-2 [&>*]:rounded-lg ">

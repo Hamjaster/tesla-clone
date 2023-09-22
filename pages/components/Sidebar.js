@@ -3,6 +3,7 @@ import { AiOutlineClose } from 'react-icons/ai'
 import { BiSolidArrowToRight } from 'react-icons/bi'
 import { BsArrowRight } from 'react-icons/bs'
 import { IoIosArrowBack } from 'react-icons/io'
+import Image from 'next/image'
 
 export default function Sidebar({ closeSidebar }) {
     const [activeItem, setActiveItem] = useState('')

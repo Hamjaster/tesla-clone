@@ -3,7 +3,7 @@ import { Inter } from 'next/font/google'
 import Navbar from './components/Navbar'
 import { useContext, useEffect } from 'react'
 import { Context } from './components/contextApi'
-
+import { Image } from 'next/image'
 
 export default function Home() {
   const { isHovered, setIsHovered } = useContext(Context)
